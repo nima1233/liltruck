@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bg-darkblue {
+    background-color: #0F2453 !important;
+}
+
+.bg-lightwhite {
+    background-color: #ECEEF2 !important;
+}
+
+/* Navigation */
+.redz a {
+    color: red !important;
+}
+
+.redz a:hover {
+    color: darkred !important;
+}
+/* Carousel */
+.carousel-item {
+    height: 700px;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    padding-bottom: 215px;
+}
+
+.carousel-caption h5 {
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+/* Room Reservation */
+.roomreservation {
+    background-color: #FFCE14;
+    height: 150px;
+    color: white;
+}
+
+.rsp {
+    padding-top: 45px;
+}
+
+.roomlink a{
+    text-decoration: none !important;
+    color: white;
+}
+
+.roomlink a:hover {
+    color: lightgray;
+}
+
+/* About */
+.text-color-db {
+    color: #0F2453 !important;
+}
+
+/* Services */
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://i.imgur.com/IbctwV3.jpg");
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    overflow-x: hidden;
+}
+
+.service-box {
+    border: 1px solid white;
+    padding: 15px;
+    width: 50px !important;
+}
+
+.linez {
+    width: 10%;
+    height: 3px;
+    background: orange;
+    margin-bottom: 30px;
+}
+/* Footer */
+footer {
+    background-color: #0F2453;
+    color: white;
+}
